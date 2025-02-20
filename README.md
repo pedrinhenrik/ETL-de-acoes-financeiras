@@ -1,2 +1,30 @@
 # ETL-de-acoes-financeiras
 Coleta dados de ações e cria um csv com os dados diariamente
+
+# Coleta de Dados de Ações da B3
+Este projeto em Python coleta dados de ações da B3 (Bolsa de Valores do Brasil) utilizando a biblioteca `yfinance`. Ele permite que o usuário escolha uma pasta para salvar os dados históricos das ações e gera gráficos com o histórico de preços da última semana.
+
+## Funcionalidades
+* Coleta dados das ações (MGLU3, BBAS3, ABEV3, ITUB4, VALE3 e PETR4), podendo ser alterado na variável acoes_disponiveis
+* Coleta dados diários e semanais de ações da B3.
+* Permite ao usuário escolher a pasta para salvar os arquivos CSV.
+* Gera gráficos com o histórico de preços da última semana para cada ação.
+* Atualiza os dados automaticamente, adicionando novas informações aos arquivos CSV existentes.
+* Possibilidade de agendamento para execução automática diária.
+
+## Tecnologias Utilizadas
+* Python
+* yfinance // Biblioteca da Yahoo Finance
+* pandas
+* matplotlib
+* tkinter (para a caixa de diálogo de seleção de pasta)
+
+## Pré-requisitos
+* Python 3.x instalado
+* Bibliotecas listadas em "Requisitos" instaladas
+
+## Requisitos
+Para instalar as bibliotecas necessárias, execute o seguinte comando no seu terminal:
+
+```bash
+pip install yfinance pandas matplotlib
