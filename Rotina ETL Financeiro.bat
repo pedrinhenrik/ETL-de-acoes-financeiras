@@ -1,0 +1,1 @@
+"C:\caminho\para\seu\python.exe" "E:\Python Scripts\Projeto ETL git\Excel Financeiro\coletar_dados_acoes.py"
